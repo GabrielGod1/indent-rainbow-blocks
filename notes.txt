@@ -1,0 +1,18 @@
+// Single coloration
+  const decorationType = vscode.window.createTextEditorDecorationType({
+      backgroundColor: 'rgba(128,128,128,0.1)', // Default light gray, adjust as needed
+      isWholeLine: true
+    });
+
+  const decorations = [];
+
+  decorations.push({ range });
+
+  match structure:
+  [
+    '  ',    // This is match[0] - entire match
+    '  ',    // This is match[1] - first match (this exists if the regex include groups '()')
+   index: 12, // The position in the string where this match starts
+   input: '...whole input string...',
+    groups: undefined
+  ]
