@@ -9,14 +9,18 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": ["*"],
-  "_activationEvents": ["onStartupFinished"],
+  "_activationEvents": [
+    "*"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "indent-rainbow-blocks.live",
-        "title": "Live Irb"
+        "title": "Live i-r-b?"
       }
     ],
     "configuration": {
@@ -43,6 +47,10 @@
         }
       }
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GabrielGod1/indent-rainbow-blocks.git"
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",

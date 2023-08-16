@@ -4,10 +4,10 @@ export function activate(context: vscode.ExtensionContext) {
   console.log('indent-rainbow-blocks extension is now active!'); //Debug msg
 
   const colorMap: string[] = vscode.workspace.getConfiguration('indentRainbowBlocks').get('colors') as string[] || [
-    'rgba(240, 240, 240, 0.1)',
-    'rgba(255, 0, 0, 0.1)',
-    'rgba(0, 255, 0, 0.1)',
-    'rgba(0, 0, 255, 0.1)'
+    'rgba(0, 0, 0, 0)',
+    'rgba(255, 0, 0, 0.15)',
+    'rgba(0, 255, 0, 0.15)',
+    'rgba(0, 0, 255, 0.15)'
   ];
   const indentationDecorationTypes = colorMap.map(color => vscode.window.createTextEditorDecorationType({
     backgroundColor: color,
