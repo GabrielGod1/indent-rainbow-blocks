@@ -10,12 +10,12 @@
   - Coloring example (default and custom):
 
   <img src="img/color_default.png" alt="Default color" style="margin-left: 40px; margin-top: 10px; margin-top: 10px; width:399; height:332">
-  <img src="img/color_custom.png" alt="Custom color" style="margin-left: 0px; margin-top: 10px; width:399; height:332">
+  <img src="img/color_custom.png" alt="Custom color" style="margin-left: 40px; margin-top: 10px; width:399; height:332">
   
   - Style example (line and fall):
 
   <img src="img/style_line.png" alt="Line style" style="margin-left: 40px; margin-top: 10px; width:399; height:332">
-  <img src="img/style_fall.png" alt="Rainbow style" style="margin-left: 0px; margin-top: 10px; width:399; height:332">
+  <img src="img/style_fall.png" alt="Fall style" style="margin-left: 40px; margin-top: 10px; width:399; height:332">
   
   <br>
   
@@ -39,7 +39,7 @@ This extension contributes the following settings:
       "rgba(0, 0, 255, 0.15)"
   ],
 ```
-* `indentRainbowBlocks.style`: Determines the coloring style, either 'line' for full line background color or 'rainbow' for coloring only the indentation.
+* `indentRainbowBlocks.style`: Determines the coloring style, either 'line' for full line background color or 'fall' for coloring only the indentation.
 ```json
   "indentRainbowBlocks.style": "line"
 ```
@@ -51,7 +51,7 @@ None at the moment. Please report any issues you find on the GitHub repository.
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 Initial release of "indent-rainbow-blocks". It includes color and style customizations.
 

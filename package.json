@@ -1,7 +1,7 @@
 {
   "name": "indent-rainbow-blocks",
   "displayName": "indent-rainbow-blocks",
-  "description": "Enhance your code readability with 'indent-rainbow-blocks'. Not only does it color-code your indentation with a cascading left-side rainbow effect, but it also extends the color throughout the entire code line. Dive into your nested structures with ease and visualize your code's structure at a glance.",
+  "description": "Enhance your code readability with 'indent-rainbow-blocks'. Dive into your nested structures with ease and visualize your code's structure at a glance.",
   "publisher": "Gabrielgod1",
   "version": "0.0.1",
   "license": "MIT",

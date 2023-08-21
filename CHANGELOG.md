@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2023-08-15
+## [0.0.1] - 2023-08-15
 
 ### Added
 
@@ -16,5 +16,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - fall
 - Default and customizable color palette.
 
-[Unreleased]: https://github.com/GabrielGod1/indent-rainbow-blocks/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/GabrielGod1/indent-rainbow-blocks/releases/
+[Unreleased]: https://github.com/GabrielGod1/indent-rainbow-blocks/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/GabrielGod1/indent-rainbow-blocks/releases/tag/v0.0.1
