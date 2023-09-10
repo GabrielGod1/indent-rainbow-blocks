@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2023-09-10
+
+### Changed
+
+- Coloring logic updated: Now adapts based on the active indent formatter (tab or space).
+
+### Added
+
+- Dynamic indentation formatter detection: Updates in real-time from changes in settings or the status bar.
+
+### Fixed
+
+- Resolved a bug affecting the coloring positions of tab-indent-based languages like Go.
+
 ## [0.0.1] - 2023-08-15
 
 ### Added
@@ -16,5 +30,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - fall
 - Default and customizable color palette.
 
-[Unreleased]: https://github.com/GabrielGod1/indent-rainbow-blocks/compare/v0.0.1...HEAD
+[Unreleased]: https://github.com/GabrielGod1/indent-rainbow-blocks/compare/v0.0.2...HEAD
+[0.0.2]: https://github.com/GabrielGod1/indent-rainbow-blocks/releases/tag/v0.0.2
 [0.0.1]: https://github.com/GabrielGod1/indent-rainbow-blocks/releases/tag/v0.0.1

@@ -20,7 +20,7 @@
   <br>
   
         Note: The images above are just examples. Try the extension to see different colors in action!
-- P/M Languages supported: As long as the typing involves indentation, the extension will be compatible. This includes html, css, javascript, python, json, among others.
+- P/M languages supported: As long as the typing involves indentation, the extension will be compatible. This includes HTML, CSS, Javascript, Python, GoLang (Go), JSON, among others.
 
 ## Requirements
 
@@ -51,8 +51,14 @@ None at the moment. Please report any issues you find on the GitHub repository.
 
 ## Release Notes
 
+### 0.0.2
+
+- Enhanced coloring: Indentations and text are now colored based on the active indent formatter (tab or space).
+
+- Added dynamic indentation detection: Recognizes changes made either in the settings or via the status bar in real time.
+
 ### 0.0.1
 
-Initial release of "indent-rainbow-blocks". It includes color and style customizations.
+- Initial release of "indent-rainbow-blocks". It includes color and style customizations.
 
 ---
