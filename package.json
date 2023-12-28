@@ -3,13 +3,17 @@
   "displayName": "indent-rainbow-blocks",
   "description": "Enhance your code readability with 'indent-rainbow-blocks'. Dive into your nested structures with ease and visualize your code's structure at a glance.",
   "publisher": "Gabrielgod1",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "icon": "img/logo.png",
   "engines": {
     "vscode": "^1.81.0"
   },
   "categories": [
+    "Programming Languages",
+    "Themes",
+    "Formatters",
+    "Visualization",
     "Other"
   ],
   "_activationEvents": [
@@ -23,7 +27,7 @@
     "commands": [
       {
         "command": "indent-rainbow-blocks.live",
-        "title": "Live i-r-b?"
+        "title": "Live IRB?"
       }
     ],
     "configuration": {

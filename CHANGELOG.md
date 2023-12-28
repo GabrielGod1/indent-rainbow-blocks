@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3] - 2023-12-28
+
+### Added
+
+- Color palettes tool: A new tool integrated for the creation and application of different color palettes and styles from a single window.
+
+### Fixed
+
+- Resolved the recognition of color and style changes in settings without needing to reload VS Code.
+
 ## [0.0.2] - 2023-09-10
 
 ### Changed
@@ -30,6 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - fall
 - Default and customizable color palette.
 
-[Unreleased]: https://github.com/GabrielGod1/indent-rainbow-blocks/compare/v0.0.2...HEAD
-[0.0.2]: https://github.com/GabrielGod1/indent-rainbow-blocks/releases/tag/v0.0.2
+[Unreleased]: https://github.com/GabrielGod1/indent-rainbow-blocks/compare/v0.0.3...HEAD
+[0.0.3]: https://github.com/GabrielGod1/indent-rainbow-blocks/compare/v0.0.2...v0.0.3
+[0.0.2]: https://github.com/GabrielGod1/indent-rainbow-blocks/compare/v0.0.1...v0.0.2
 [0.0.1]: https://github.com/GabrielGod1/indent-rainbow-blocks/releases/tag/v0.0.1

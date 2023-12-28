@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'none'; script-src ${cspSource}; style-src ${cspSource}; img-src 'self'; font-src 'self'; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests; block-all-mixed-content;">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="${styles.css}">
+  <script src="${functions.js}"></script>
+  <title>Color Selector</title>
+</head>
+
+<body>
+  <div class="indentation-example" id="indentationExample">
+    <h2>Preview</h2>
+  </div>
+
+  <div class="settings-section">
+    <h2>Settings</h2>
+    <div class="color-controls">
+      <label>RGB 1:&nbsp;&nbsp;</label>
+      <input type="color" id="rgb1" class="color-input" value="#000000" />
+      <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A 1:&nbsp;&nbsp;</label>
+      <div class="alpha-fixed">
+        <input type="range" id="alpha1" min="0" max="1" step="0.01" value="0">
+        <span id="alphaValue1">0</span>
+      </div>
+      <span id="rgbaValue1">rgba(0, 0, 0, 0)</span>
+    </div>
+
+    <div class="color-controls">
+      <label>RGB 2:&nbsp;&nbsp;</label>
+      <input type="color" id="rgb2" class="color-input" value="#ff0000" />
+      <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A 2:&nbsp;&nbsp;</label>
+      <div class="alpha-fixed">
+        <input type="range" id="alpha2" min="0" max="1" step="0.01" value="0.15">
+        <span id="alphaValue2">0.15</span>
+      </div>
+      <span id="rgbaValue2">rgba(255, 0, 0, 0.15)</span>
+    </div>
+
+    <div class="color-controls">
+      <label>RGB 3:&nbsp;&nbsp;</label>
+      <input type="color" id="rgb3" class="color-input" value="#00ff00" />
+      <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A 3:&nbsp;&nbsp;</label>
+      <div class="alpha-fixed">
+        <input type="range" id="alpha3" min="0" max="1" step="0.01" value="0.15">
+        <span id="alphaValue3">0.15</span>
+      </div>
+      <span id="rgbaValue3">rgba(0, 255, 0, 0.15)</span>
+    </div>
+
+    <div class="color-controls">
+      <label>RGB 4:&nbsp;&nbsp;</label>
+      <input type="color" id="rgb4" class="color-input" value="#0000ff" />
+      <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A 4:&nbsp;&nbsp;</label>
+      <div class="alpha-fixed">
+        <input type="range" id="alpha4" min="0" max="1" step="0.01" value="0.15">
+        <span id="alphaValue4">0.15</span>
+      </div>
+      <span id="rgbaValue4">rgba(0, 0, 255, 0.15)</span>
+    </div>
+
+    <div class="color-controls color-controls-all">
+      <label>RGB&nbsp;*:&nbsp;&nbsp;</label>
+      <input type="color" id="rgb*" class="color-input" value="#000000" />
+      <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;*:&nbsp;&nbsp;</label>
+      <div class="alpha-fixed">
+        <input type="range" id="alpha*" min="0" max="1" step="0.01" value="0.15">
+        <span id="alphaValue*">0.15</span>
+      </div>
+      <span id="rgbaValue*">rgba(0, 0, 0, 0.15)</span>
+    </div>
+
+    <div class="checkbox-group">
+      <label>Coloring Style:&nbsp;&nbsp;</label>
+      <input type="radio" id="lineStyle" name="coloringStyle" value="line" checked>
+      <label for="lineStyle">Line (recommended)</label>
+      <input type="radio" id="fallStyle" name="coloringStyle" value="fall">
+      <label for="fallStyle">Fall</label>
+    </div>
+
+    <div class="buttons">
+      <button>Show Default Settings</button>
+      <button id="currentSettingsButton">Show Current Settings</button>
+      <button>Save New Settings</button>
+    </div>
+  </div>
+</body>
+
+</html>

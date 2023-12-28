@@ -1,0 +1,176 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+
+  margin: 30px;
+  padding: 0px 30px 0px 20px;
+  border: 4px solid #007ACC;
+  border-radius: 10px;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+body.vscode-light {
+  color: black;
+}
+
+body.vscode-dark {
+  color: white;
+}
+
+body.vscode-high-contrast {
+  color: red;
+}
+
+h2 {
+  margin-bottom: 20px;
+  width: 120px;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+
+  background: #007ACC;
+}
+
+.indentation-example {
+  width: 700px;
+  border-right: 4px solid #007ACC;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.indentation-example>h2 {
+  margin-bottom: 4px;
+}
+
+.svg-line {
+  font-variation-settings: 'wdth' 75, 'wght' 700;
+  stroke: #fcc8c8;
+  stroke-width: 0;
+  stroke-linecap: square;
+  stroke-dasharray: none;
+  stroke-opacity: 0.791667;
+}
+
+.svg-fall {
+  font-variation-settings: 'wdth' 75, 'wght' 700;
+  stroke: #fcc8c8;
+  stroke-width: 0;
+  stroke-linecap: square;
+  stroke-dasharray: none;
+  stroke-opacity: 0.791667;
+  display: none;
+}
+
+.svg-text {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 14.8167px;
+  font-family: Bahnschrift;
+  -inkscape-font-specification: 'Bahnschrift, @wght=300,wdth=75.0';
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-variation-settings: 'wdth' 75, 'wght' 300;
+  text-align: center;
+  text-anchor: middle;
+  fill: #008cff;
+  fill-opacity: 1;
+  stroke: #fcc8c8;
+  stroke-width: 0;
+  stroke-linecap: square;
+  stroke-dasharray: none;
+  stroke-opacity: 0.791667;
+}
+
+.svg1 {
+  fill: #0000ff;
+  fill-opacity: 0.15;
+}
+
+.svg2 {
+  fill: #00ff00;
+  fill-opacity: 0.15;
+}
+
+.svg3 {
+  fill: #ff0000;
+  fill-opacity: 0.15;
+}
+
+.svg4 {
+  fill: #000000;
+  fill-opacity: 0;
+}
+
+.settings-section {
+  display: flex;
+  flex-direction: column;
+  width: 168.75mm;
+  margin-left: 30px;
+}
+
+.color-controls {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.color-controls-all {
+  margin-top: 0.7em;
+  width: 38em;
+  border-width: 1px 0px 1px 0px;
+  border-style: dotted;
+  border-color: #007ACC;
+}
+
+.color-controls > span {
+  user-select: text;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+}
+
+.color-input {
+  border-radius: 10px;
+  background: transparent;
+  border: 0px solid transparent;
+}
+
+.alpha-fixed {
+  width: 185px;
+}
+
+.checkbox-group {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons>* {
+  width: 160px;
+  margin-left: 10px;
+  padding: 5px 2px;
+  border-radius: 10px;
+  text-align: center;
+
+  color: white;
+  background-color: gray;
+  font-weight: bold;
+}
+
+.buttons> :last-child {
+  background-color: #007ACC;
+}
